@@ -1,0 +1,107 @@
+.container {
+    border: solid white;
+    border-radius: 10px;
+    margin: 1% 3%;
+    /* background-color: #709a45; */
+    padding: 10px;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.4);
+    color: rgb(13, 13, 13);
+}
+
+.course {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin: auto;
+    padding-top: 25px;
+    padding-right: 5px;
+    /* list-style-type: none; */
+}
+
+nav {
+    height: 100px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: blueviolet;
+    border: solid rgb(47, 95, 255);
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: purple;
+    color: white;
+}
+
+
+h2 {
+    color: black;
+}
+
+.float {
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 10px #ff0000;
+}
+
+
+
+.contacts {
+    display: flex;
+}
+
+
+.search {
+    display: flex;
+    width: 400px;
+    height: 40px;
+    margin-left: 37%;
+
+}
+
+.search input {
+    outline: none;
+    border: 1px solid #ccc;
+    flex: 1;
+    border-right: none;
+    padding: 5px;
+
+}
+
+.search input:focus {
+    box-shadow: 0 0 2px 2px aqua;
+}
+
+.search button {
+    min-width: 100px;
+    border: none;
+    background-color: aqua;
+    color: #fff;
+}
+
+.black-border {
+    border: solid black;
+    border-width: 10px;
+    border-radius: 10px;
+
+}
+
+.white-border {
+    border: solid white;
+    border-width: 10px;
+
+}
